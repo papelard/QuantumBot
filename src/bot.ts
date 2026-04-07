@@ -22,9 +22,5 @@ bot.command("ping", (ctx) => {
   ctx.reply("🟢 Pong! QuantumBot онлайн.");
 });
 
-bot.on("message:text", (ctx) => {
-  ctx.reply(`Ты написал: "${ctx.message.text}"`);
-});
-
 bot.start();
 console.log("⚡ QuantumBot запущен!");
